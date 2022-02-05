@@ -1,0 +1,48 @@
+1- Este exercício é livre para você inserir dados nas tabelas. Adicione vários dados em todas as tabelas. Crie vários clientes, com vários endereços. Insira muitos produtos em vários departamentos. Crie pedidos em várias datas com meses diferentes (serão necessários para os próximos exercícios).
+		OS DADOS FORAM CRIADOS.
+2- Quantos clientes estão cadastrados na sua base?
+		7 clientes cadastrados
+		
+	codigo usado para chegar na resposta:  select count(idcliente) from cliente;
+	
+	
+
+3- Qual o produto mais caro?
+			Computador i9 32GB de R$4000
+
+			codigo usado para chegar na resposta: select * from produto order by preco desc;
+
+4- Qual o produto mais barato?
+			Conector USB de R$35
+
+
+			codigo usado para chegar na resposta: select * from produto order by preco asc;
+
+5- Mostre todos os produtos com seus respectivos departamentos.
+
+
+	
+
+
+6- Quantos produtos há em cada departamento? Exiba o nome do departamento e a quantidade de produtos que há em cada um. (pense em SUM e GROUP BY)
+
+
+
+7- Mostre os dados dos pedidos, incluindo nomes dos clientes e nomes dos produtos que foram vendidos.
+
+
+
+
+8- Mostre quantos pedidos foram feitos por mês no ano de 2022 (caso você tenha registros neste ano, senão escolha um ano que você tenha cadastrado - Novamente pense em COUNT e GROUP BY).
+
+
+
+
+9- Mostre quanto foi faturado por mês (leve em conta o valor total de cada pedido - novamente pense em GROUP BY e SUM).
+
+
+
+
+
+10- Mostre o valor total do estoque por departamento.
+
