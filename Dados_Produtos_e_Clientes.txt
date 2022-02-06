@@ -20,13 +20,13 @@ INSERT INTO produto VALUES (null, "AK-47 | Aquecimento de Aço FT com CROWN", "F
 INSERT INTO produto VALUES (null, "Baioneta | Massacre FN", "Float: 0.047",2320.00,1,"bayoneta-0047.jpg",5);
 -- tabela cliente
 
-INSERT INTO cliente VALUES (null, "Jose Alberto Neves","josealberto@mail.com","123456","98.876.123-99","987.654.321-00");
-INSERT INTO cliente VALUES (null, "Antonio Oliveira","antoniooli@mail.com","987654","12.983.256-72","765.432.987.10");
-INSERT INTO cliente VALUES (null, "Regina Brito","reginabrito@mail.com","010203","83.235.645-90","123.456.789-00");
-Insert into cliente values (null, "Alex tenorio da silva","alex.tenorios@hotmail.com","12121","836.451.100-97","788.855.170-05");
-Insert into cliente values (null, "Albani nadia da silva","tenorios@hotmail.com", "15121","034.980.110-06","198.710.900-72");
-Insert into cliente values (null, "Alizete tenorio da silva","maetenorios@hotmail.com","894677","544.965.090-67","184.784.420-06");
-Insert into cliente values (null, "Maria yolanda tenorio","maria_yolanda@hotmail.com","8444","109.554.590-60","430.438.440-68");
+INSERT INTO cliente VALUES (null, "Jose Alberto Neves","josealberto@mail.com","123456","98.876.123-99");
+INSERT INTO cliente VALUES (null, "Antonio Oliveira","antoniooli@mail.com","987654","12.983.256-72");
+INSERT INTO cliente VALUES (null, "Regina Brito","reginabrito@mail.com","010203","83.235.645-90");
+Insert into cliente values (null, "Alex tenorio da silva","alex.tenorios@hotmail.com","12121","836.451.100-97");
+Insert into cliente values (null, "Albani nadia da silva","tenorios@hotmail.com", "15121","034.980.110-06");
+Insert into cliente values (null, "Alizete tenorio da silva","maetenorios@hotmail.com","894677","544.965.090-67");
+Insert into cliente values (null, "Maria yolanda tenorio","maria_yolanda@hotmail.com","8444","109.554.590-60");
 
 -- tabela endereco
 INSERT INTO endereco VALUES (null,"Av", "Brasil",100,"","Centro","Sao Paulo","01234-567","SP",1);
@@ -59,21 +59,21 @@ INSERT INTO pedido VALUES (null,"2022-02-05",1129.95,"F",0,1129.95,5);
 INSERT INTO pedido VALUES (null,"2022-02-05",299.00,"F",0,299.00,7);
 -- tabela itens
 
-INSERT INTO item_pedido VALUES (null, 1, 1, 1, 4000, 4000);
-INSERT INTO item_pedido VALUES (null, 2, 4, 2, 35.0, 70.0);
-INSERT INTO item_pedido VALUES (null, 3, 2, 1, 3850, 3850);
-INSERT INTO item_pedido VALUES (null, 4, 1, 2, 4000, 8000);
-INSERT INTO item_pedido VALUES (null, 5, 5, 1, 1999.90, 1999.90);
-INSERT INTO item_pedido VALUES (null, 6, 6, 1, 2999.90, 2999.90);
-INSERT INTO item_pedido VALUES (null, 7, 3, 5, 50, 250);
-INSERT INTO item_pedido VALUES (null, 8, 4, 10, 35, 350);
-INSERT INTO item_pedido VALUES (null, 9, 4, 20, 35, 700);
-INSERT INTO item_pedido VALUES (null, 10, 2, 1, 3850, 3850);
-INSERT INTO item_pedido VALUES (null, 11, 3, 1, 50, 50);
-INSERT INTO item_pedido VALUES (null, 12, 5, 1, 1999.9, 1999.9);
-INSERT INTO item_pedido VALUES (null, 13, 6, 1, 2999.9, 2999.9);
-INSERT INTO item_pedido VALUES (null, 14, 1, 1, 4000, 4000);
-INSERT INTO item_pedido VALUES (null, 15, 11, 1, 2320.00, 2320.00);
-INSERT INTO item_pedido VALUES (null, 16, 7, 1, 840.00, 840.00);
-INSERT INTO item_pedido VALUES (null, 17, 8, 1, 1129.95, 1129.95);
-INSERT INTO item_pedido VALUES (null, 18, 9, 1, 299.00, 299.00);
+INSERT INTO item_pedido VALUES (1,1, 1, 1, 4000, 4000);
+INSERT INTO item_pedido VALUES (2,2, 4, 2, 35.0, 70.0);
+INSERT INTO item_pedido VALUES (3,3, 2, 1, 3850, 3850);
+INSERT INTO item_pedido VALUES (4,4, 1, 2, 4000, 8000);
+INSERT INTO item_pedido VALUES (5,5, 5, 1, 1999.90, 1999.90);
+INSERT INTO item_pedido VALUES (6,6, 6, 1, 2999.90, 2999.90);
+INSERT INTO item_pedido VALUES (7,7, 3, 5, 50, 250);
+INSERT INTO item_pedido VALUES (8,8, 4, 10, 35, 350);
+INSERT INTO item_pedido VALUES (9,9, 4, 20, 35, 700);
+INSERT INTO item_pedido VALUES (10,10, 2, 1, 3850, 3850);
+INSERT INTO item_pedido VALUES (11,11, 3, 1, 50, 50);
+INSERT INTO item_pedido VALUES (12,12, 5, 1, 1999.9, 1999.9);
+INSERT INTO item_pedido VALUES (13,13, 6, 1, 2999.9, 2999.9);
+INSERT INTO item_pedido VALUES (14,14, 1, 1, 4000, 4000);
+INSERT INTO item_pedido VALUES (15,15, 11, 1, 2320.00, 2320.00);
+INSERT INTO item_pedido VALUES (16,16, 7, 1, 840.00, 840.00);
+INSERT INTO item_pedido VALUES (17,17, 8, 1, 1129.95, 1129.95);
+INSERT INTO item_pedido VALUES (18,18, 9, 1, 299.00, 299.00);
